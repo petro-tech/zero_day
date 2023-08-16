@@ -10,18 +10,25 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~Msle0~/\/\*
+
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1691829344,,"x"
+|2,0,1692199235,,"x"
+:y
+|2,0,1692198181,,"y"
 :wq
-|2,0,1691702764,,"wq"
+|2,0,1692118193,,"wq"
+:q
+|2,0,1692115292,,"q"
+:x!
+|2,0,1691875761,,"x!"
 :q!
 |2,0,1691191738,,"q!"
-:q
-|2,0,1691171816,,"q"
 :w
 |2,0,1690280345,,"w"
 :.!
@@ -38,6 +45,8 @@ $
 |2,0,1690230983,,"v"
 
 # Search String History (newest to oldest):
+? \/\*
+|2,1,1691866309,,"\\/\\*"
 ? @$
 |2,1,1690283393,,"@$"
 ??\a
@@ -51,8 +60,8 @@ $
 
 # Registers:
 ""0	LINE	0
-	
-|3,1,0,1,1,0,1691696188,""
+	#include "main.h"
+|3,1,0,1,1,0,1692198181,"#include \"main.h\""
 "1	BLOCK	14
 	libx32@        
 	sbin@          
@@ -98,230 +107,703 @@ $
 |3,0,36,2,1,13,1690283404,".i.txt.swp    "
 
 # File marks:
-'0  1  0  ~/alx-low_level_programming/0x00-hello_world/0-preprocessor
-|4,48,1,0,1691829344,"~/alx-low_level_programming/0x00-hello_world/0-preprocessor"
-'1  1  1  ~/alx-low_level_programming/0x00-hello_world/0-preprocessor
-|4,49,1,1,1691828758,"~/alx-low_level_programming/0x00-hello_world/0-preprocessor"
-'2  6  9  ~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG
-|4,50,6,9,1691703256,"~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG"
-'3  1  0  ~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG
-|4,51,1,0,1691702764,"~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG"
-'4  1  0  ~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG
-|4,52,1,0,1691702764,"~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG"
-'5  9  11  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,53,9,11,1691702294,"~/alx-low_level_programming/0x00-hello_world/main.c"
-'6  1  17  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,54,1,17,1691702062,"~/alx-low_level_programming/0x00-hello_world/main.c"
-'7  1  17  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,55,1,17,1691702062,"~/alx-low_level_programming/0x00-hello_world/main.c"
-'8  10  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,56,10,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
-'9  11  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,57,11,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
+'0  1  0  ~/.git/COMMIT_EDITMSG
+|4,48,1,0,1692199235,"~/.git/COMMIT_EDITMSG"
+'1  10  7  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,49,10,7,1692198730,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+'2  1  0  ~/alx-low_level_programming/0x03-debugging/0-main.c
+|4,50,1,0,1692198692,"~/alx-low_level_programming/0x03-debugging/0-main.c"
+'3  12  12  ~/alx-low_level_programming/0x03-debugging/0-main.c
+|4,51,12,12,1692198643,"~/alx-low_level_programming/0x03-debugging/0-main.c"
+'4  12  12  ~/alx-low_level_programming/0x03-debugging/0-main.c
+|4,52,12,12,1692198643,"~/alx-low_level_programming/0x03-debugging/0-main.c"
+'5  11  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,53,11,0,1692198563,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+'6  11  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,54,11,0,1692198563,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+'7  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,55,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+'8  1  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,56,1,0,1692198123,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+'9  1  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,57,1,0,1692198123,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
 
 # Jumplist (newest first):
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/0-preprocessor
-|4,39,1,0,1691829344,"~/alx-low_level_programming/0x00-hello_world/0-preprocessor"
--'  1  1  ~/alx-low_level_programming/0x00-hello_world/0-preprocessor
-|4,39,1,1,1691828758,"~/alx-low_level_programming/0x00-hello_world/0-preprocessor"
--'  6  9  ~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG
-|4,39,6,9,1691703256,"~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG"
--'  6  9  ~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG
-|4,39,6,9,1691703256,"~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG"
--'  6  9  ~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG
-|4,39,6,9,1691703256,"~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG"
--'  6  9  ~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG
-|4,39,6,9,1691703256,"~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG
-|4,39,1,0,1691703223,"~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG
-|4,39,1,0,1691703223,"~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG
-|4,39,1,0,1691703223,"~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG
-|4,39,1,0,1691703223,"~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG
-|4,39,1,0,1691702764,"~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG
-|4,39,1,0,1691702764,"~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG
-|4,39,1,0,1691702764,"~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG
-|4,39,1,0,1691702764,"~/alx-low_level_programming/0x00-hello_world/.git/MERGE_MSG"
--'  9  11  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,9,11,1691702294,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  9  11  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,9,11,1691702294,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  9  11  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,9,11,1691702294,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  9  11  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,9,11,1691702294,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  9  11  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,9,11,1691702294,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  9  11  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,9,11,1691702294,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  9  11  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,9,11,1691702294,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  9  11  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,9,11,1691702294,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  9  11  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,9,11,1691702294,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  9  11  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,9,11,1691702294,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  9  11  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,9,11,1691702294,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  9  11  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,9,11,1691702294,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  9  11  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,9,11,1691702294,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  9  11  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,9,11,1691702294,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  9  11  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,9,11,1691702294,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  9  11  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,9,11,1691702294,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,0,1691702100,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,0,1691702100,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,0,1691702100,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,0,1691702100,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,0,1691702100,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,0,1691702100,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,0,1691702100,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,0,1691702100,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,0,1691702100,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,0,1691702100,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,0,1691702100,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,0,1691702100,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,0,1691702100,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,0,1691702100,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,0,1691702100,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,0,1691702100,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  17  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,17,1691702062,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  17  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,17,1691702062,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  17  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,17,1691702062,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  17  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,17,1691702062,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  17  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,17,1691702062,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  17  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,17,1691702062,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  17  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,17,1691702062,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  17  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,17,1691702062,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  17  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,17,1691702062,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  17  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,17,1691702062,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  17  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,17,1691702062,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  17  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,17,1691702062,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  17  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,17,1691702062,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  17  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,17,1691702062,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  17  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,17,1691702062,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  1  17  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,1,17,1691702062,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  10  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,10,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  11  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,11,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  10  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,10,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  11  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,11,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  10  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,10,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  11  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,11,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  10  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,10,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  11  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,11,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  10  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,10,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  11  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,11,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  10  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,10,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  11  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,11,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  10  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,10,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  11  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,11,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  10  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,10,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  11  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,11,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  10  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,10,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  11  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,11,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  10  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,10,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  11  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,11,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  10  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,10,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  11  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,11,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  10  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,10,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  11  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,11,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  10  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,10,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  11  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,11,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  10  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,10,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  11  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,11,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  10  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,10,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  11  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,11,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  10  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,10,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  11  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,11,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  10  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,10,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  11  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,11,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  10  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,10,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  11  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,11,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  10  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,10,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
--'  11  0  ~/alx-low_level_programming/0x00-hello_world/main.c
-|4,39,11,0,1691701106,"~/alx-low_level_programming/0x00-hello_world/main.c"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1692199235,"~/.git/COMMIT_EDITMSG"
+-'  10  7  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,39,10,7,1692198730,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+-'  10  7  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,39,10,7,1692198730,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,39,1,0,1692198696,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,39,1,0,1692198696,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/0x03-debugging/0-main.c
+|4,39,1,0,1692198692,"~/alx-low_level_programming/0x03-debugging/0-main.c"
+-'  1  0  ~/alx-low_level_programming/0x03-debugging/0-main.c
+|4,39,1,0,1692198692,"~/alx-low_level_programming/0x03-debugging/0-main.c"
+-'  1  0  ~/alx-low_level_programming/0x03-debugging/0-main.c
+|4,39,1,0,1692198692,"~/alx-low_level_programming/0x03-debugging/0-main.c"
+-'  1  0  ~/alx-low_level_programming/0x03-debugging/0-main.c
+|4,39,1,0,1692198692,"~/alx-low_level_programming/0x03-debugging/0-main.c"
+-'  12  12  ~/alx-low_level_programming/0x03-debugging/0-main.c
+|4,39,12,12,1692198643,"~/alx-low_level_programming/0x03-debugging/0-main.c"
+-'  12  12  ~/alx-low_level_programming/0x03-debugging/0-main.c
+|4,39,12,12,1692198643,"~/alx-low_level_programming/0x03-debugging/0-main.c"
+-'  12  12  ~/alx-low_level_programming/0x03-debugging/0-main.c
+|4,39,12,12,1692198643,"~/alx-low_level_programming/0x03-debugging/0-main.c"
+-'  12  12  ~/alx-low_level_programming/0x03-debugging/0-main.c
+|4,39,12,12,1692198643,"~/alx-low_level_programming/0x03-debugging/0-main.c"
+-'  12  12  ~/alx-low_level_programming/0x03-debugging/0-main.c
+|4,39,12,12,1692198643,"~/alx-low_level_programming/0x03-debugging/0-main.c"
+-'  12  12  ~/alx-low_level_programming/0x03-debugging/0-main.c
+|4,39,12,12,1692198643,"~/alx-low_level_programming/0x03-debugging/0-main.c"
+-'  12  12  ~/alx-low_level_programming/0x03-debugging/0-main.c
+|4,39,12,12,1692198643,"~/alx-low_level_programming/0x03-debugging/0-main.c"
+-'  12  12  ~/alx-low_level_programming/0x03-debugging/0-main.c
+|4,39,12,12,1692198643,"~/alx-low_level_programming/0x03-debugging/0-main.c"
+-'  1  0  ~/alx-low_level_programming/0x03-debugging/0-main.c
+|4,39,1,0,1692198610,"~/alx-low_level_programming/0x03-debugging/0-main.c"
+-'  1  0  ~/alx-low_level_programming/0x03-debugging/0-main.c
+|4,39,1,0,1692198610,"~/alx-low_level_programming/0x03-debugging/0-main.c"
+-'  1  0  ~/alx-low_level_programming/0x03-debugging/0-main.c
+|4,39,1,0,1692198610,"~/alx-low_level_programming/0x03-debugging/0-main.c"
+-'  1  0  ~/alx-low_level_programming/0x03-debugging/0-main.c
+|4,39,1,0,1692198610,"~/alx-low_level_programming/0x03-debugging/0-main.c"
+-'  11  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,39,11,0,1692198563,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,39,11,0,1692198563,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,39,11,0,1692198563,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,39,11,0,1692198563,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,39,11,0,1692198563,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,39,11,0,1692198563,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,39,11,0,1692198563,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,39,11,0,1692198563,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,39,11,0,1692198563,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,39,11,0,1692198563,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,39,1,0,1692198224,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,39,1,0,1692198224,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,39,1,0,1692198224,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,39,1,0,1692198224,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,39,1,0,1692198224,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,39,1,0,1692198224,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,39,1,0,1692198224,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+|4,39,1,0,1692198224,"~/alx-low_level_programming/0x03-debugging/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  11  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,11,0,1692198208,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
+-'  1  0  ~/alx-low_level_programming/positive_or_negative.c
+|4,39,1,0,1692198139,"~/alx-low_level_programming/positive_or_negative.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/.git/COMMIT_EDITMSG
+	*	1692199219	0
+	"	1	0
+
+> ~/alx-low_level_programming/0x03-debugging/positive_or_negative.c
+	*	1692198726	0
+	"	10	7
+	^	10	8
+	.	10	7
+	+	1	180
+	+	1	114
+	+	12	0
+	+	6	32
+	+	11	0
+	+	10	7
+
+> ~/alx-low_level_programming/0x03-debugging/0-main.c
+	*	1692198686	0
+	"	1	0
+	^	12	13
+	.	12	12
+	+	16	0
+	+	12	12
+
+> ~/alx-low_level_programming/positive_or_negative.c
+	*	1692198204	0
+	"	11	0
+	^	1	16
+	.	1	15
+	+	3	31
+	+	4	0
+	+	11	0
+	+	1	15
+
+> ~/alx-low_level_programming/0x03-debugging/main.h
+	*	1692198021	0
+	"	8	18
+	^	8	19
+	.	8	18
+	+	8	18
+
+> ~/alx-low_level_programming/0-main.c
+	*	1692196366	0
+	"	8	8
+	^	12	13
+	.	12	12
+	+	16	0
+	+	12	12
+
+> ~/alx-low_level_programming/main.h
+	*	1692195558	0
+	"	8	18
+	^	8	19
+	.	8	18
+	+	8	18
+
+> /alx-low_level_programming/0x02-functions_nested_loops/11-print_to_98.c
+	*	1692189151	0
+	"	7	2
+	^	7	3
+	.	8	0
+	+	1	62
+	+	1	43
+	+	1	16
+	+	1	19
+	+	1	94
+	+	1	80
+	+	1	176
+	+	1	0
+	+	1	17
+	+	6	0
+	+	5	1
+	+	3	4
+	+	13	0
+	+	12	1
+	+	13	2
+	+	41	4
+	+	12	7
+	+	17	14
+	+	23	2
+	+	31	2
+	+	41	2
+	+	3	19
+	+	2	0
+	+	2	18
+	+	3	4
+	+	6	18
+	+	2	18
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	42	0
+	+	41	1
+	+	40	1
+	+	38	1
+	+	30	3
+	+	24	2
+	+	9	0
+	+	10	0
+	+	2	8
+	+	8	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/11-main.c
+	*	1692186634	0
+	"	16	0
+	^	16	1
+	.	16	0
+	+	16	0
+
+> /alx-low_level_programming/.git/COMMIT_EDITMSG
+	*	1692186542	0
+	"	1	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/10-add.c
+	*	1692186443	0
+	"	16	0
+	^	16	1
+	.	16	0
+	+	6	0
+	+	5	4
+	+	16	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/10-main.c
+	*	1692185884	0
+	"	16	0
+	^	16	1
+	.	16	0
+	+	16	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/9-times_table.c
+	*	1692185813	0
+	"	13	4
+	^	13	5
+	.	13	4
+	+	41	0
+	+	20	11
+	+	21	1
+	+	20	4
+	+	29	12
+	+	40	0
+	+	25	15
+	+	13	4
+
+> /alx-low_level_programming/0x02-functions_nested_loops/9-main.c
+	*	1692184640	0
+	"	12	0
+	^	12	1
+	.	12	0
+	+	12	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/8-24_hours.c
+	*	1692184368	0
+	"	22	7
+	^	22	8
+	.	22	7
+	+	16	24
+	+	19	0
+	+	18	1
+	+	20	25
+	+	22	24
+	+	35	1
+	+	16	12
+	+	14	9
+	+	22	7
+
+> /alx-low_level_programming/0x02-functions_nested_loops/8-main.c
+	*	1692183177	0
+	"	12	0
+	^	12	1
+	.	12	0
+	+	12	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/7-print_last_digit.c
+	*	1692183064	0
+	"	21	0
+	^	21	1
+	.	21	0
+	+	18	0
+	+	17	1
+	+	21	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/7-main.c
+	*	1692182437	0
+	"	18	0
+	^	18	1
+	.	18	0
+	+	18	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/6-abs.c
+	*	1692182319	0
+	"	1	5
+	^	1	6
+	.	1	6
+	+	22	0
+	+	15	13
+	+	21	0
+	+	1	6
+
+> /alx-low_level_programming/0x02-functions_nested_loops/6-main.c
+	*	1692182233	0
+	"	1	0
+	^	22	1
+	.	22	0
+	+	22	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/5-sign.c
+	*	1692181720	0
+	"	11	0
+	^	11	1
+	.	28	0
+	+	14	14
+	+	23	2
+	+	24	14
+	+	28	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/4-isalpha.c
+	*	1692181085	0
+	"	1	15
+	^	1	16
+	.	1	15
+	+	6	0
+	+	5	1
+	+	10	1
+	+	17	0
+	+	1	15
+
+> /alx-low_level_programming/0x02-functions_nested_loops/4-main.c
+	*	1692180893	0
+	"	1	0
+	^	22	1
+	.	22	0
+	+	22	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/5-main.c
+	*	1692180722	0
+	"	33	0
+	^	33	1
+	.	33	0
+	+	33	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/3-islower.c
+	*	1692179462	0
+	"	6	9
+	^	6	10
+	.	6	9
+	+	4	43
+	+	15	2
+	+	19	0
+	+	13	17
+	+	6	9
+
+> /alx-low_level_programming/0x02-functions_nested_loops/3-main.c
+	*	1692179086	0
+	"	20	0
+	^	20	1
+	.	20	0
+	+	20	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/2-print_alphabet_x10.c
+	*	1692178890	0
+	"	25	0
+	^	25	1
+	.	24	0
+	+	1	229
+	+	1	78
+	+	1	83
+	+	4	46
+	+	13	6
+	+	18	13
+	+	20	15
+	+	24	0
+	+	12	4
+	+	15	6
+	+	14	5
+	+	22	1
+	+	17	0
+	+	16	0
+	+	24	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/1-alphabet.c
+	*	1692177507	0
+	"	1	0
+	^	15	1
+	.	15	0
+	+	4	37
+	+	11	8
+	+	12	4
+	+	6	1
+	+	15	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/2-main.c
+	*	1692177453	0
+	"	12	0
+	^	12	1
+	.	12	0
+	+	12	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/1-main.c
+	*	1692176707	0
+	"	12	0
+	^	12	1
+	.	12	0
+	+	12	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/0-putchar.c
+	*	1692176186	0
+	"	2	0
+	^	2	0
+	.	1	17
+	+	1	17
+	+	19	8
+	+	10	13
+	+	11	28
+	+	13	14
+	+	14	9
+	+	13	11
+	+	14	14
+	+	15	14
+	+	16	14
+	+	17	14
+	+	18	14
+	+	21	0
+	+	5	3
+	+	6	1
+	+	10	20
+	+	19	10
+	+	7	1
+	+	3	3
+	+	9	14
+	+	11	0
+	+	11	14
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	3	6
+	+	6	0
+	+	4	0
+	+	5	0
+	+	7	0
+	+	1	17
+
+> /alx-low_level_programming/0x02-functions_nested_loops/_putchar.c
+	*	1692175363	0
+	"	13	0
+	^	13	1
+	.	13	0
+	+	13	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/main.h
+	*	1692117282	0
+	"	17	5
+	^	17	6
+	.	17	5
+	+	5	26
+	+	17	5
+
+> /alx-low_level_programming/0x02-functions_nested_loops/README.md
+	*	1692115346	0
+	"	1	13
+	^	1	14
+	.	1	13
+	+	1	13
+
+> /alx-low_level_programming/0x00-hello_world/6-size.c
+	*	1691878453	0
+	"	12	37
+	^	12	38
+	.	12	38
+	+	1	18
+	+	6	14
+	+	9	38
+	+	8	37
+	+	10	60
+	+	11	8
+	+	10	8
+	+	11	15
+	+	10	53
+	+	12	55
+	+	14	0
+	+	8	27
+	+	9	27
+	+	10	32
+	+	11	36
+	+	12	28
+	+	8	37
+	+	9	38
+	+	10	42
+	+	11	46
+	+	12	38
+
+> /alx-low_level_programming/0x00-hello_world/5-printf.c
+	*	1691876232	0
+	"	10	0
+	^	10	1
+	.	10	0
+	+	4	11
+	+	3	3
+	+	10	0
+	+	1	11
+	+	3	21
+	+	4	1
+	+	5	0
+	+	8	69
+	+	10	0
+
+> /alx-low_level_programming/0x00-hello_world/4-puts.c
+	*	1691875176	0
+	"	5	0
+	^	5	1
+	.	5	1
+	+	10	0
+	+	8	8
+	+	9	11
+	+	2	45
+	+	2	46
+	+	2	1
+	+	2	5
+	+	2	43
+	+	4	28
+	+	2	28
+	+	3	27
+	+	2	6
+	+	3	21
+	+	2	12
+	+	2	3
+	+	3	20
+	+	5	1
+
+> /alx-low_level_programming/0x00-hello_world/4-=puts.c
+	*	1691868174	0
+	"	1	0
+
+> /alx-low_level_programming/0x00-hello_world/3-name
+	*	1691864971	0
+	"	2	19
+	^	2	20
+	.	2	19
+	+	2	19
+
+> /alx-low_level_programming/0x00-hello_world/2-assembler
+	*	1691864348	0
+	"	2	12
+	^	2	13
+	.	2	12
+	+	2	12
+
+> /alx-low_level_programming/0x00-hello_world/1-compiler
+	*	1691862930	0
+	"	2	12
+	^	2	13
+	.	2	12
+	+	2	12
+
+> /alx-low_level_programming/0x00-hello_world/0-preprocessor
+	*	1691830548	0
+	"	2	17
+	^	2	18
+	.	2	17
+	+	2	17
+
+> /alx-low_level_programming/0x00-hello_world/README.md
+	*	1691830421	0
+	"	1	19
+	^	1	20
+	.	1	19
+	+	1	19
 
 > ~/alx-low_level_programming/0x00-hello_world/0-preprocessor
 	*	1691829342	0
