@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/root/0x03_vi/inserting'
+let g:netrw_dirhist_0='/'
+let g:netrw_dirhist_9='/mnt'
+let g:netrw_dirhist_8='/'
+let g:netrw_dirhist_7='/mnt'
+let g:netrw_dirhist_6='/'
+let g:netrw_dirhist_5='/mnt'
+let g:netrw_dirhist_4='/'
+let g:netrw_dirhist_3='/mnt'
+let g:netrw_dirhist_2='/'

@@ -1,1 +1,1 @@
-this is the first file
+The output of the 'uname' command without any option is:
